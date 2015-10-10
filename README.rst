@@ -1,5 +1,11 @@
+Introduction
+==========
+
 This is a vagrant workshop with multiple steps where you learn how to create a plain box and extend it
 step by step with custom cookbooks.
+
+Preparation
+==========
 
 Download VirtualBox:
 
@@ -17,3 +23,10 @@ Download the Chef developer kit:
 Install Vagrant Berkshelf Plugin:
 
 	vagrant plugin install vagrant-berkshelf
+
+Go through the steps
+===========
+
+In each step folder you find a Vagrantfile run "vagrant up" to provision the box of this step.
+
+Have fun ;)

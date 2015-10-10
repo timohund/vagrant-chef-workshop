@@ -1,0 +1,14 @@
+DEPENDENCIES
+  mycookbook
+    path: site-cookbooks/mycookbook
+
+GRAPH
+  apache2 (3.0.0)
+    iptables (>= 0.0.0)
+    logrotate (>= 0.0.0)
+  hostsfile (2.4.5)
+  iptables (1.1.0)
+  logrotate (1.9.2)
+  mycookbook (0.0.1)
+    apache2 (= 3.0.0)
+    hostsfile (= 2.4.5)

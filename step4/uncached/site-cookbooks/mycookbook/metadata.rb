@@ -1,0 +1,12 @@
+name 'mycookbook'
+description 'Demo to setup a lamp box with chef'
+maintainer 'Timo Schmidt'
+license 'none'
+version '0.0.1'
+
+depends 'apt', '= 2.3.10'
+depends 'apache2', '= 3.1.0'
+depends 'composer', '= 1.1.0'
+depends 'hostsfile', '= 2.4.5'
+depends 'mysql', '= 6.1.2'
+depends 'php', '= 1.7.2'
